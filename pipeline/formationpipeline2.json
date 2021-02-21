@@ -17,6 +17,7 @@
 				"typeProperties": {
 					"source": {
 						"type": "AzureMySqlSource",
+						"query": "SELECT * FROM countriesdb LIMIT 5;",
 						"queryTimeout": "02:00:00"
 					},
 					"dataset": {
