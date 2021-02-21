@@ -15,7 +15,10 @@
 		"type": "AzureMySqlTable",
 		"schema": [],
 		"typeProperties": {
-			"tableName": "countriesdb"
+			"tableName": {
+				"value": "@dataset().TableName",
+				"type": "Expression"
+			}
 		}
 	},
 	"type": "Microsoft.DataFactory/factories/datasets"
