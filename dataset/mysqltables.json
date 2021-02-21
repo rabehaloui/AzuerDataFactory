@@ -13,7 +13,10 @@
 		},
 		"annotations": [],
 		"type": "AzureMySqlTable",
-		"schema": []
+		"schema": [],
+		"typeProperties": {
+			"tableName": "countriesdb"
+		}
 	},
 	"type": "Microsoft.DataFactory/factories/datasets"
 }
