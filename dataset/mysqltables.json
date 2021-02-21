@@ -5,6 +5,12 @@
 			"referenceName": "LinkedServiceAzureDataBaseSQL",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"TableName": {
+				"type": "string",
+				"defaultValue": "countriesdb"
+			}
+		},
 		"annotations": [],
 		"type": "AzureMySqlTable",
 		"schema": [],
