@@ -13,7 +13,20 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"source": {
+						"type": "AzureMySqlSource",
+						"queryTimeout": "02:00:00"
+					},
+					"dataset": {
+						"referenceName": "mysqltables",
+						"type": "DatasetReference",
+						"parameters": {
+							"TableName": "countriesdb"
+						}
+					}
+				}
 			}
 		],
 		"annotations": []
