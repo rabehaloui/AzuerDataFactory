@@ -13,13 +13,7 @@
 		},
 		"annotations": [],
 		"type": "AzureMySqlTable",
-		"schema": [],
-		"typeProperties": {
-			"tableName": {
-				"value": "@dataset().TableName",
-				"type": "Expression"
-			}
-		}
+		"schema": []
 	},
 	"type": "Microsoft.DataFactory/factories/datasets"
 }
