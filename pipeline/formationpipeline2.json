@@ -21,10 +21,7 @@
 					},
 					"dataset": {
 						"referenceName": "mysqltables",
-						"type": "DatasetReference",
-						"parameters": {
-							"TableName": "countriesdb"
-						}
+						"type": "DatasetReference"
 					}
 				}
 			}
