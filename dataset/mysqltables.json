@@ -1,10 +1,6 @@
 {
 	"name": "mysqltables",
 	"properties": {
-		"linkedServiceName": {
-			"referenceName": "LinkedServiceAzureDataBaseSQL",
-			"type": "LinkedServiceReference"
-		},
 		"parameters": {
 			"TableName": {
 				"type": "string",
